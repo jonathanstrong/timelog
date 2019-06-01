@@ -1,4 +1,6 @@
-#!/opt/local/bin/bash
+#!/bin/bash
+
+# bash implementation of what the rust program does
 
 time=$(date +%s)
 url="http://localhost:8086/write?db=timelog&precision=s"

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# add line to ~/.bashrc (or ~/.bash_profile on osx) to autoload
+# PROMPT_COMMAND is cmd run before prompt (`$`) is displayed
+
+export PROMPT_COMMAND=$HOME/.cargo/bin/timelog

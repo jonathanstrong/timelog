@@ -13,6 +13,8 @@ logs `$PWD` to influxdb every time your bash prompt is displayed.
 
 tweak hard-coded values like host, database and measurement name in `src/main.rs`.
 
+also, create database in influx (`create database timelog`).
+
 ##### build:
 
 `$ cargo build --release`

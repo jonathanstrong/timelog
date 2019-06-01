@@ -2,12 +2,12 @@
 
 logs `$PWD` to influxdb every time your bash prompt is displayed.
 
-## requirements
+### requirements
 
 - influxdb
 - curl
 
-## usage
+### usage
 
 #### customize:
 
@@ -25,10 +25,10 @@ tweak hard-coded values like host, database and measurement name in `src/main.rs
 
 `export PROMPT_COMMAND=$HOME/.cargo/bin/timelog`
 
-## troubleshooting
+### troubleshooting
 
-run with "debug" feature enabled: `$ cargo run --features debug`
+`$ cargo run --features debug`
 
-## why not use a bash script?
+### why not use a bash script?
 
 because it was fun to tinker around with this.

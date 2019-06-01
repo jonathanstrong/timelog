@@ -9,19 +9,19 @@ logs `$PWD` to influxdb every time your bash prompt is displayed.
 
 ### usage
 
-#### customize:
+##### customize:
 
 tweak hard-coded values like host, database and measurement name in `src/main.rs`.
 
-#### build:
+##### build:
 
 `$ cargo build --release`
 
-#### "install":
+##### "install":
 
 `$ cp target/release/timelog ~/.cargo/bin`
 
-#### add trigger in `.bashrc`:
+##### add trigger in `.bashrc`:
 
 `export PROMPT_COMMAND=$HOME/.cargo/bin/timelog`
 
